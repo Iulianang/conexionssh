@@ -2,20 +2,20 @@ package buscador_patologia;
 
 import java.util.List;
 
-public class PatologiasDTO {
+public class PatologiaDTO {
 	
 	private int idPatologia;
 	private String nombrePatologia;
 	private String descPatologia;
 	private String tratPatologia;
 	private String causaPatologia;
-	private List<PatologiasDTO> lista_patologias;
+	private List<PatologiaDTO> lista_patologias;
 	
 	
-	public List<PatologiasDTO> getLista_patologias() {
+	public List<PatologiaDTO> getLista_patologias() {
 		return lista_patologias;
 	}
-	public void setLista_patologias(List<PatologiasDTO> lista_patologias) {
+	public void setLista_patologias(List<PatologiaDTO> lista_patologias) {
 		this.lista_patologias = lista_patologias;
 	}
 	public int getIdPatologia() {

@@ -9,7 +9,7 @@ public class SintomasDTO {
 		
 		private int id_sintoma;
 		private String nombre_sintoma;
-		private List<PatologiasDTO> lista_patologias;
+		private List<PatologiaDTO> lista_patologias;
 		
 		public SintomaDTO(int id_sintoma, String nombre_sintoma)
 		{

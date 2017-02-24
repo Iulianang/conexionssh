@@ -79,7 +79,7 @@ public class Conexion {
 		
 		public static void imprimir(ResultSet rset) throws SQLException{
 			int id = 0;
-			PatologiasDTO pato = new PatologiasDTO();
+			PatologiaDTO pato = new PatologiaDTO();
 			String nom_patol = null;
 			String desc_patol = null;
 			String trat_patol = null;
